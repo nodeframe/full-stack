@@ -1,0 +1,44 @@
+{
+  "name": "design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "express": "^4.13.4",
+    "morgan": "^1.6.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.0",
+    "gulp-duration": "0.0.0",
+    "gulp-help": "^1.6.1",
+    "gulp-param": "^1.0.3",
+    "gulp-plumber": "^1.0.1",
+    "gulp-typescript": "^2.10.0",
+    "gulp-using": "^0.1.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "node-sass": "^3.4.2",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.5",
+    "sass-loader": "^3.1.2",
+    "scss-loader": "0.0.1",
+    "ts-loader": "^0.8.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.12",
+    "webpack-dev-middleware": "^1.5.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.6.4",
+    "yargs": "^3.32.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server:dev": "gulp server:dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
